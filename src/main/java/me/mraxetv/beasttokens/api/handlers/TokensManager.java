@@ -6,6 +6,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 public interface TokensManager {
 
@@ -51,6 +52,11 @@ public interface TokensManager {
     ArrayList<String> getTopList();
 
     void loadPlayer(Player p);
+
+    void unLoadPlayer(Player p);
+
+    void unLoadPlayer(UUID uuid);
+
 
     ItemStack getTokenNote(String signerName, double tokens, int amount, boolean signet);
 

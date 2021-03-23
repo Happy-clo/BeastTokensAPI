@@ -13,6 +13,10 @@ public interface PlayersManager {
    BTPlayer getBTPlayer(UUID uuid);
    BTPlayer getBTPlayer(Player p);
 
+   void updateAllBoosters();
+
+
+
    Collection<? extends BTPlayer> getBTPlayers();
 
 

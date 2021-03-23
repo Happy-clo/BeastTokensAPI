@@ -1,60 +1,62 @@
 package me.mraxetv.beasttokens.api.wrappers.shop;
 
+import me.mraxetv.beasttokens.api.StockType;
+
 import java.util.List;
 
 public interface ItemData {
-     String getPermission();
+    String getPermission();
 
-     void setPermission(String permission);
+    void setPermission(String permission);
 
-     boolean hasPermission();
+    boolean hasPermission();
 
     void setPrice(double price);
 
-     void setCmd(List<String> cmd);
+    void setCmd(List<String> cmd);
 
-     void setRcmd(List<String> rcmd);
+    void setRandomCmd(List<String> randomCmd);
 
-     void setPcmd(List<String> pcmd);
+    void setPlayerCmd(List<String> playerCmd);
 
-     int getSlot();
+    int getSlot();
 
-     String getName();
-     //
+    String getId();
 
-     List<String> getCmd();
+    String getShopName();
 
-     List<String> getRcmd();
+    List<String> getCmd();
 
-     List<String> getPcmd();
+    List<String> getRandomCmd();
 
-     boolean hasCmd();
+    List<String> getPlayerCmd();
 
-     boolean hasRcmd();
+    boolean hasCmd();
 
-     boolean hasPcmd();
+    boolean hasRandomCmd();
 
-     boolean hasOpenShop();
+    boolean hasPlayerCmd();
 
-     String getOpenShop();
+    boolean hasOpenShop();
 
-     void setOpenShop(String openShop);
+    String getOpenShop();
 
-     boolean hasPlayerLimit();
+    void setOpenShop(String openShop);
 
-     int getPlayerLimit();
 
-     void setPlayerLimit(int limit);
+    boolean isStockLimited();
 
-     boolean hasServerLimit();
+    StockType getStockType();
 
-     int getServerLimit();
+    int getMaxStockAmount();
 
-     void setServerLimit(int limit);
+    int getSoldStockAmount();
 
-     double getPrice();
+    void setSoldStockAmount(int amount);
 
-     boolean isCloseShop();
+    double getPrice();
 
-     void setCloseShop(boolean b);
+    boolean isCloseShop();
+
+    void setCloseShop(boolean b);
 }

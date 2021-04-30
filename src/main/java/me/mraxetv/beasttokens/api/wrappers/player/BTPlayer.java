@@ -6,18 +6,11 @@ import me.mraxetv.beasttokens.api.wrappers.shop.ShopData;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 
-public interface BTPlayer {
+public interface BTPlayer extends BTOfflinePlayer {
     Player getPlayer();
 
-    String getName();
 
     boolean hasOpenShop();
-
-
-    FileConfiguration getConfig();
-
-
-    void saveFile();
 
 
     //void setShop(String shop);
@@ -28,6 +21,9 @@ public interface BTPlayer {
     void openShop(String shop);
     void openShop(ShopData shop);
 
+    int getShopPage();
+    void setShopPage(int page);
+
     void reloadBoosters();
 
     void refreshShop();
@@ -35,9 +31,12 @@ public interface BTPlayer {
 
     void closeShop();
 
-    //void removeShop();
 
     QuantityBoosterManager getQuantityBoosters();
 
     ChanceBoosterManager getChanceBoosterManager();
+
+
+    //void removeShop();
+
 }

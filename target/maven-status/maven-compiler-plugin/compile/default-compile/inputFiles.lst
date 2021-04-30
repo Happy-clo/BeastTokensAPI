@@ -10,7 +10,6 @@ F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\even
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\events\tokendrops\blocks\BTPreBlockTokenDropEvent.java
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\events\tokendrops\mobs\BTMythicMobTokenDropEvent.java
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\handlers\ShopManager.java
-F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\wrappers\player\OfflineBTPlayer.java
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\events\tokendrops\farming\BTPreFarmingTokenDropEvent.java
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\BeastTokens.java
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\events\BTPostTransactionShopEvent.java
@@ -20,6 +19,7 @@ F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\wrap
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\StockType.java
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\events\tokendrops\farming\BTFarmingTokenDropEvent.java
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\wrappers\shop\ItemData.java
+F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\wrappers\player\BTOfflinePlayer.java
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\events\tokendrops\mobs\BTMobTokenDropEvent.java
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\wrappers\player\BTPlayer.java
 F:\Plugins\BeastTokens_Maven\btapi\src\main\java\me\mraxetv\beasttokens\api\TokensUpdateReason.java

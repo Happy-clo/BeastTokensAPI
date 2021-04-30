@@ -3,7 +3,6 @@ me\mraxetv\beasttokens\api\wrappers\boosters\ChanceBoosterManager.class
 me\mraxetv\beasttokens\api\BoosterType.class
 me\mraxetv\beasttokens\api\StockType.class
 me\mraxetv\beasttokens\api\events\tokendrops\farming\BTFarmingTokenDropEvent.class
-me\mraxetv\beasttokens\api\wrappers\player\OfflineBTPlayer.class
 me\mraxetv\beasttokens\api\handlers\PlayersManager.class
 me\mraxetv\beasttokens\api\events\tokendrops\mobs\BTMobTokenDropEvent.class
 me\mraxetv\beasttokens\api\DropType.class
@@ -16,6 +15,7 @@ me\mraxetv\beasttokens\api\wrappers\shop\ShopData.class
 me\mraxetv\beasttokens\api\events\tokendrops\blocks\BTPreBlockTokenDropEvent.class
 me\mraxetv\beasttokens\api\events\tokendrops\blocks\BTBlockTokenDropEvent.class
 me\mraxetv\beasttokens\api\events\tokendrops\mobs\BTPreMythicMobTokenDropEvent.class
+me\mraxetv\beasttokens\api\wrappers\player\BTOfflinePlayer.class
 me\mraxetv\beasttokens\api\TokensUpdateReason.class
 me\mraxetv\beasttokens\api\events\BTPreTransactionShopEvent.class
 me\mraxetv\beasttokens\api\events\BTPostTransactionShopEvent.class

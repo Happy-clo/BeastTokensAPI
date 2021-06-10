@@ -2,15 +2,13 @@ package me.mraxetv.beasttokens.api.wrappers.shop;
 
 import org.bukkit.configuration.file.FileConfiguration;
 
-import java.util.HashMap;
-
-public interface ShopData {
+public interface BTShopData {
 
     String getName();
 
     String getTitle();
 
-    ItemData getItemData(int slot);
+    BTItemData getItemData(int slot);
 
     boolean hasItemData(int slot);
 

@@ -7,7 +7,7 @@ import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
 
-public class BTMythicMobTokenDropEvent extends Event implements Cancellable {
+public class BTMythicMobDropEvent extends Event implements Cancellable {
     private static final HandlerList HANDLERS = new HandlerList();
     private boolean cancelled;
 
@@ -67,7 +67,7 @@ public class BTMythicMobTokenDropEvent extends Event implements Cancellable {
     }
 
 
-    public BTMythicMobTokenDropEvent(Player p, double tokens, double multiplierTokens, double percentageTokens, ActiveMob mobType){
+    public BTMythicMobDropEvent(Player p, double tokens, double multiplierTokens, double percentageTokens, ActiveMob mobType){
         this.player= p;
         this.multiplierTokens = multiplierTokens;
         this.percentageTokens = percentageTokens;

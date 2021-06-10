@@ -2,8 +2,8 @@ package me.mraxetv.beasttokens.api.wrappers.player;
 
 import me.mraxetv.beasttokens.api.wrappers.boosters.ChanceBoosterManager;
 import me.mraxetv.beasttokens.api.wrappers.boosters.QuantityBoosterManager;
-import me.mraxetv.beasttokens.api.wrappers.shop.ShopData;
-import org.bukkit.configuration.file.FileConfiguration;
+import me.mraxetv.beasttokens.api.wrappers.shop.BTShopData;
+import me.mraxetv.beasttokens.api.wrappers.shop.BTShopView;
 import org.bukkit.entity.Player;
 
 public interface BTPlayer extends BTOfflinePlayer {
@@ -11,20 +11,21 @@ public interface BTPlayer extends BTOfflinePlayer {
 
 
     boolean hasOpenShop();
+    public BTShopView getBtShopView();
+
 
 
     //void setShop(String shop);
 
-    ShopData getShop();
+    BTShopData getShop();
     String getShopName();
 
     void openShop(String shop);
-    void openShop(ShopData shop);
+    void openShop(BTShopData shop);
 
-    int getShopPage();
-    void setShopPage(int page);
 
-    void reloadBoosters();
+
+    void updateBoosters();
 
     void refreshShop();
 

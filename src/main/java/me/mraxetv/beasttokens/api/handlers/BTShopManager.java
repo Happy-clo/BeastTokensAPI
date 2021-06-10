@@ -1,14 +1,14 @@
 package me.mraxetv.beasttokens.api.handlers;
 
-import me.mraxetv.beasttokens.api.wrappers.shop.ShopData;
+import me.mraxetv.beasttokens.api.wrappers.shop.BTShopData;
 
 import java.util.ArrayList;
 
-public interface ShopManager {
+public interface BTShopManager {
     boolean isShopExists(String shop);
 
     ArrayList<String> getShopsList();
 
-    ShopData getShop(String shop);
+    BTShopData getShop(String shop);
 
 }

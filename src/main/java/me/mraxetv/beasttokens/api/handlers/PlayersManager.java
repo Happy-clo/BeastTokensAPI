@@ -12,10 +12,13 @@ public interface PlayersManager {
 
    BTPlayer getBTPlayer(String name);
    BTPlayer getBTPlayer(UUID uuid);
-   BTPlayer getBTPlayer(Player p);
+
+BTPlayer getBTPlayer(Player p) ;
+
    BTOfflinePlayer getBTOfflinePlayer(UUID uuid);
 
    void updateAllBoosters();
+
 
 
 

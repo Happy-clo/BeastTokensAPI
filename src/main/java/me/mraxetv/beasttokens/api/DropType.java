@@ -1,7 +1,7 @@
 package me.mraxetv.beasttokens.api;
 
 public enum DropType {
-    BLOCKS("Blocks"),
+    MINING("Mining"),
     FARMING("Farming"),
     MOBS("Mobs"),
     MYTHIC_MOBS("MythicMobs");

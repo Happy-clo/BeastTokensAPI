@@ -1,13 +1,14 @@
-package me.mraxetv.beasttokens.api.events.tokendrops.mobs;
+package me.mraxetv.beasttokens.api.events.tokendrops.blocks;
 
-import io.lumine.xikage.mythicmobs.mobs.ActiveMob;
+
+import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
 
-public class BTPreMythicMobTokenDropEvent extends Event implements Cancellable {
+public class BTPreMiningDropEvent extends Event implements Cancellable {
     private static final HandlerList HANDLERS = new HandlerList();
     private boolean cancelled;
 
@@ -47,7 +48,7 @@ public class BTPreMythicMobTokenDropEvent extends Event implements Cancellable {
     private double percentageChance;
 
 
-    private ActiveMob mobType;
+    private Block block;
     private boolean perWorld;
 
 
@@ -55,12 +56,12 @@ public class BTPreMythicMobTokenDropEvent extends Event implements Cancellable {
         return perWorld;
     }
 
-    public BTPreMythicMobTokenDropEvent(Player p, double chance, double multiplierChance, double percentageChance, ActiveMob mobType, boolean perWorld){
+    public BTPreMiningDropEvent(Player p, double chance, double multiplierChance, double percentageChance, Block block, boolean perWorld){
         this.player= p;
         this.chance = chance;
         this.multiplierChance = multiplierChance;
         this.percentageChance = percentageChance;
-        this.mobType = mobType;
+        this.block = block;
         this.perWorld = perWorld;
     }
     public Player getPlayer() {
@@ -69,8 +70,8 @@ public class BTPreMythicMobTokenDropEvent extends Event implements Cancellable {
 
 
 
-    public ActiveMob getMobType() {
-        return mobType;
+    public Block getBlock() {
+        return block;
     }
 
 

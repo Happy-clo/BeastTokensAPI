@@ -4,7 +4,7 @@ import me.mraxetv.beasttokens.api.StockType;
 
 import java.util.List;
 
-public interface ItemData {
+public interface BTItemData {
     String getPermission();
 
     void setPermission(String permission);
@@ -59,4 +59,6 @@ public interface ItemData {
     boolean isCloseShop();
 
     void setCloseShop(boolean b);
+
+    boolean isFree();
 }

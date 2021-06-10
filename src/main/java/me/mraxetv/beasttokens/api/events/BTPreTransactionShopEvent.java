@@ -1,7 +1,7 @@
 package me.mraxetv.beasttokens.api.events;
 
 
-import me.mraxetv.beasttokens.api.wrappers.shop.ItemData;
+import me.mraxetv.beasttokens.api.wrappers.shop.BTItemData;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
@@ -14,13 +14,13 @@ public class BTPreTransactionShopEvent extends Event implements Cancellable {
     private boolean cancelled;
 
 
-    private ItemData itemInfo;
+    private BTItemData itemInfo;
 
     private String shopName;
 
     private Player player;
 
-    public ItemData getItemInfo() {
+    public BTItemData getItemInfo() {
         return itemInfo;
     }
 
@@ -32,7 +32,7 @@ public class BTPreTransactionShopEvent extends Event implements Cancellable {
         return shopName;
     }
 
-    public BTPreTransactionShopEvent(Player p , String shopName, ItemData item){
+    public BTPreTransactionShopEvent(Player p , String shopName, BTItemData item){
         this.player= p;
         this.itemInfo = item;
         this.shopName = shopName;

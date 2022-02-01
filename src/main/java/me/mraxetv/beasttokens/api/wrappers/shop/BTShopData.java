@@ -8,13 +8,17 @@ public interface BTShopData {
 
     String getTitle();
 
-    BTItemData getItemData(int slot);
+
+    BTItemData getItemData(String id);
 
     boolean hasItemData(int slot);
 
     FileConfiguration getConfig();
 
     void saveConfig();
+
+
+    public BTShopRotatingData getRotatingData();
 
     //public HashMap<Integer, ItemData> getGUIContent();
 

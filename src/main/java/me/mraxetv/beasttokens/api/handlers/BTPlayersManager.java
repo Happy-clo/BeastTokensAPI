@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 import java.util.Collection;
 import java.util.UUID;
 
-public interface PlayersManager {
+public interface BTPlayersManager {
 
    BTPlayer getBTPlayer(String name);
    BTPlayer getBTPlayer(UUID uuid);

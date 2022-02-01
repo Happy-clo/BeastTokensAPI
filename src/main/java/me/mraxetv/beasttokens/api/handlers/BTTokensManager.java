@@ -8,7 +8,7 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.UUID;
 
-public interface TokensManager {
+public interface BTTokensManager {
 
 // Check if player tokens are loaded in memory
     boolean isLoaded(OfflinePlayer p);
@@ -48,18 +48,19 @@ public interface TokensManager {
     //Get tokens from player balance should be used async
     double getTokens(OfflinePlayer p);
 
-
-    ArrayList<String> getTopList();
-
     void loadPlayer(Player p);
 
     void unLoadPlayer(Player p);
 
     void unLoadPlayer(UUID uuid);
 
+    ArrayList<String> getTopPlayers();
+
 
     ItemStack getTokenNote(String signerName, double tokens, int amount, boolean signet);
 
 
     void saveAll();
+
+    double getStartAmount();
 }

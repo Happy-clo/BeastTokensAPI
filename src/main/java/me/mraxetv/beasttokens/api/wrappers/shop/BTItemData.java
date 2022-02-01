@@ -1,6 +1,7 @@
 package me.mraxetv.beasttokens.api.wrappers.shop;
 
 import me.mraxetv.beasttokens.api.StockType;
+import org.bukkit.configuration.ConfigurationSection;
 
 import java.util.List;
 
@@ -61,4 +62,14 @@ public interface BTItemData {
     void setCloseShop(boolean b);
 
     boolean isFree();
+
+    BTItemStackBuilder getbItemStack();
+
+    boolean isSkull();
+
+    String getSkullName();
+
+    boolean isUpdatable();
+
+    ConfigurationSection getConfig();
 }

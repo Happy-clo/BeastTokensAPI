@@ -9,6 +9,6 @@ public interface BTShopManager {
 
     ArrayList<String> getShopsList();
 
-    BTShopData getShop(String shop);
+    BTShopData getBTShop(String shop);
 
 }

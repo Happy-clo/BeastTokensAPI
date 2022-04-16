@@ -12,7 +12,7 @@ public final class BeastTokensAPI {
         return instance.getPlayersManager();
     }
 
-    public static BTShopManager getShopManger(){ return instance.getBTShopManager(); }
+    public static BTShopManager getShopManager(){ return instance.getBTShopManager(); }
 
     public static BTTokensManager getTokensManager(){ return instance.getTokensManager(); }
 

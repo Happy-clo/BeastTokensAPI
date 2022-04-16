@@ -8,8 +8,8 @@
 
 
     <name>BeastTokenAPI</name>
-    <artifactId>btapi</artifactId>
-    <groupId>me.mraxetv</groupId>
+    <artifactId>bt-api</artifactId>
+    <groupId>me.mraxetv.beasttokens</groupId>
     <packaging>jar</packaging>
 
     <build>

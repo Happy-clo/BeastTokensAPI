@@ -68,11 +68,12 @@
         </dependency>
         <!--Mythic Mobs-->
         <dependency>
-            <groupId>io.lumine.xikage</groupId>
+            <groupId>me.mraxetv.mythicmobs</groupId>
             <artifactId>MythicMobs</artifactId>
-            <version>4.9.1</version>
+            <version>5.0.5</version>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
 

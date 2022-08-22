@@ -1,6 +1,5 @@
 package me.mraxetv.beasttokens.api;
 
-import io.lumine.xikage.mythicmobs.utils.version.MinecraftVersion;
 
 public enum ActionType {
 

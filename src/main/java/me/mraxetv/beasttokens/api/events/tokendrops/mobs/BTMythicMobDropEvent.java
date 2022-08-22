@@ -1,6 +1,7 @@
 package me.mraxetv.beasttokens.api.events.tokendrops.mobs;
 
-import io.lumine.xikage.mythicmobs.mobs.ActiveMob;
+
+import io.lumine.mythic.core.mobs.ActiveMob;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
